@@ -496,40 +496,44 @@ public class MainMenu extends javax.swing.JFrame {
 
     private void btnClearActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnClearActionPerformed
         // TODO add your handling code here:
-        txfAmtOfRolls.setText("");
-        txfFreqTotal.setText("");
+        JTextField[] amountFields = {txfFreq1, txfFreq2, txfFreq3, txfFreq4, txfFreq5, txfFreq6};
+        JTextField[] fractionFields = {txfFrac1, txfFrac2, txfFrac3, txfFrac4, txfFrac5, txfFrac6};
+        JTextField[] percentageFields = {txfPer1, txfPer2, txfPer3, txfPer4, txfPer5, txfPer6};
+        JTextField[] decimalFields = {txfDec1, txfDec2, txfDec3, txfDec4, txfDec5, txfDec6};
+        
+        for (int i = 0; i < 6; i++) {
+            amountFields[i].setText("");
+            fractionFields[i].setText("");
+            percentageFields[i].setText("");
+            decimalFields[i].setText("");
+            txfAmtOfRolls.setText("");
+            txfFreqTotal.setText("");
+        }
     }//GEN-LAST:event_btnClearActionPerformed
 
     private void btnProcessActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnProcessActionPerformed
         // TODO add your handling code here:
+        JTextField[] amountFields = {txfFreq1, txfFreq2, txfFreq3, txfFreq4, txfFreq5, txfFreq6};
+        JTextField[] fractionFields = {txfFrac1, txfFrac2, txfFrac3, txfFrac4, txfFrac5, txfFrac6};
+        JTextField[] percentageFields = {txfPer1, txfPer2, txfPer3, txfPer4, txfPer5, txfPer6};
+        JTextField[] decimalFields = {txfDec1, txfDec2, txfDec3, txfDec4, txfDec5, txfDec6};
+        
+        
         int numRolls = Integer.parseInt(txfAmtOfRolls.getText());
-        int places = 6;
         
-        int[] result = new int[places];
+        txfFreqTotal.setText(""+numRolls);
         
-        Random random = new Random();
+        int[] frequencies = new int[6];
+        String[] fractions = new String[6];
         
-        int remaining = numRolls;
-        for (int i = 0; i < places - 1; i++) {
-            int randomValue = random.nextInt(remaining + 1);
-            result[i] = randomValue;
-            remaining -= randomValue;
+        for (int i = 0; i < numRolls; i++) {
+            int randomValue = (int) (Math.random() * 6) + 1;
+            frequencies[randomValue - 1]++;
         }
         
-        result[places - 1] = remaining;
-        
-        System.out.println("Distributed values:");
-        for (int value : result) {
-            System.out.print(value + " ");
+        for (int j = 0; j < 6; j++) {
+            amountFields[j].setText(String.valueOf(frequencies[j]));
         }
-
-        // Step 5: Verify the sum
-        int sum = 0;
-        for (int value : result) {
-            sum += value;
-        }
-        System.out.println("\nSum: " + sum);
-        
     }//GEN-LAST:event_btnProcessActionPerformed
 
     /**
