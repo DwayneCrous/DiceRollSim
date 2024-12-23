@@ -1,4 +1,4 @@
-# 🎲 Dice Simulation Application
+# 🎲 Dice Outcome Simulator
 
 A Java-based dice roll simulator that calculates and displays the frequencies, fractions, percentages, and decimal values of dice outcomes based on user-defined roll counts.
 
