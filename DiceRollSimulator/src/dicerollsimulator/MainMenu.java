@@ -285,31 +285,31 @@ public class MainMenu extends javax.swing.JFrame {
         txfFreq1.setBackground(new java.awt.Color(204, 204, 204));
         txfFreq1.setForeground(new java.awt.Color(0, 0, 0));
         txfFreq1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        getContentPane().add(txfFreq1, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 320, 50, -1));
+        getContentPane().add(txfFreq1, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 320, 70, -1));
 
         txfFreq2.setEditable(false);
         txfFreq2.setBackground(new java.awt.Color(204, 204, 204));
         txfFreq2.setForeground(new java.awt.Color(0, 0, 0));
         txfFreq2.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        getContentPane().add(txfFreq2, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 320, 50, -1));
+        getContentPane().add(txfFreq2, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 320, 70, -1));
 
         txfFreq3.setEditable(false);
         txfFreq3.setBackground(new java.awt.Color(204, 204, 204));
         txfFreq3.setForeground(new java.awt.Color(0, 0, 0));
         txfFreq3.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        getContentPane().add(txfFreq3, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 320, 50, -1));
+        getContentPane().add(txfFreq3, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 320, 70, -1));
 
         txfFreq4.setEditable(false);
         txfFreq4.setBackground(new java.awt.Color(204, 204, 204));
         txfFreq4.setForeground(new java.awt.Color(0, 0, 0));
         txfFreq4.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        getContentPane().add(txfFreq4, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 320, 50, -1));
+        getContentPane().add(txfFreq4, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 320, 70, -1));
 
         txfFreq5.setEditable(false);
         txfFreq5.setBackground(new java.awt.Color(204, 204, 204));
         txfFreq5.setForeground(new java.awt.Color(0, 0, 0));
         txfFreq5.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        getContentPane().add(txfFreq5, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 320, 50, -1));
+        getContentPane().add(txfFreq5, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 320, 70, -1));
 
         txfFreqTotal.setEditable(false);
         txfFreqTotal.setBackground(new java.awt.Color(204, 204, 204));
@@ -333,7 +333,7 @@ public class MainMenu extends javax.swing.JFrame {
         txfFreq6.setBackground(new java.awt.Color(204, 204, 204));
         txfFreq6.setForeground(new java.awt.Color(0, 0, 0));
         txfFreq6.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        getContentPane().add(txfFreq6, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 320, 50, -1));
+        getContentPane().add(txfFreq6, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 320, 70, -1));
 
         jSeparator4.setBackground(new java.awt.Color(0, 0, 0));
         jSeparator4.setForeground(new java.awt.Color(0, 0, 0));
@@ -347,109 +347,109 @@ public class MainMenu extends javax.swing.JFrame {
         txfFrac1.setBackground(new java.awt.Color(204, 204, 204));
         txfFrac1.setForeground(new java.awt.Color(0, 0, 0));
         txfFrac1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        getContentPane().add(txfFrac1, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 380, 50, -1));
+        getContentPane().add(txfFrac1, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 380, 70, -1));
 
         txfFrac2.setEditable(false);
         txfFrac2.setBackground(new java.awt.Color(204, 204, 204));
         txfFrac2.setForeground(new java.awt.Color(0, 0, 0));
         txfFrac2.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        getContentPane().add(txfFrac2, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 380, 50, -1));
+        getContentPane().add(txfFrac2, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 380, 70, -1));
 
         txfFrac3.setEditable(false);
         txfFrac3.setBackground(new java.awt.Color(204, 204, 204));
         txfFrac3.setForeground(new java.awt.Color(0, 0, 0));
         txfFrac3.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        getContentPane().add(txfFrac3, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 380, 50, -1));
+        getContentPane().add(txfFrac3, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 380, 70, -1));
 
         txfFrac4.setEditable(false);
         txfFrac4.setBackground(new java.awt.Color(204, 204, 204));
         txfFrac4.setForeground(new java.awt.Color(0, 0, 0));
         txfFrac4.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        getContentPane().add(txfFrac4, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 380, 50, -1));
+        getContentPane().add(txfFrac4, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 380, 70, -1));
 
         txfFrac5.setEditable(false);
         txfFrac5.setBackground(new java.awt.Color(204, 204, 204));
         txfFrac5.setForeground(new java.awt.Color(0, 0, 0));
         txfFrac5.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        getContentPane().add(txfFrac5, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 380, 50, -1));
+        getContentPane().add(txfFrac5, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 380, 70, -1));
 
         txfFrac6.setEditable(false);
         txfFrac6.setBackground(new java.awt.Color(204, 204, 204));
         txfFrac6.setForeground(new java.awt.Color(0, 0, 0));
         txfFrac6.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        getContentPane().add(txfFrac6, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 380, 50, -1));
+        getContentPane().add(txfFrac6, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 380, 70, -1));
 
         txfPer1.setEditable(false);
         txfPer1.setBackground(new java.awt.Color(204, 204, 204));
         txfPer1.setForeground(new java.awt.Color(0, 0, 0));
         txfPer1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        getContentPane().add(txfPer1, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 440, 50, -1));
+        getContentPane().add(txfPer1, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 440, 70, -1));
 
         txfPer2.setEditable(false);
         txfPer2.setBackground(new java.awt.Color(204, 204, 204));
         txfPer2.setForeground(new java.awt.Color(0, 0, 0));
         txfPer2.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        getContentPane().add(txfPer2, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 440, 50, -1));
+        getContentPane().add(txfPer2, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 440, 70, -1));
 
         txfPer3.setEditable(false);
         txfPer3.setBackground(new java.awt.Color(204, 204, 204));
         txfPer3.setForeground(new java.awt.Color(0, 0, 0));
         txfPer3.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        getContentPane().add(txfPer3, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 440, 50, -1));
+        getContentPane().add(txfPer3, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 440, 70, -1));
 
         txfPer4.setEditable(false);
         txfPer4.setBackground(new java.awt.Color(204, 204, 204));
         txfPer4.setForeground(new java.awt.Color(0, 0, 0));
         txfPer4.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        getContentPane().add(txfPer4, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 440, 50, -1));
+        getContentPane().add(txfPer4, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 440, 70, -1));
 
         txfPer5.setEditable(false);
         txfPer5.setBackground(new java.awt.Color(204, 204, 204));
         txfPer5.setForeground(new java.awt.Color(0, 0, 0));
         txfPer5.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        getContentPane().add(txfPer5, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 440, 50, -1));
+        getContentPane().add(txfPer5, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 440, 70, -1));
 
         txfPer6.setEditable(false);
         txfPer6.setBackground(new java.awt.Color(204, 204, 204));
         txfPer6.setForeground(new java.awt.Color(0, 0, 0));
         txfPer6.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        getContentPane().add(txfPer6, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 440, 50, -1));
+        getContentPane().add(txfPer6, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 440, 70, -1));
 
         txfDec1.setEditable(false);
         txfDec1.setBackground(new java.awt.Color(204, 204, 204));
         txfDec1.setForeground(new java.awt.Color(0, 0, 0));
         txfDec1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        getContentPane().add(txfDec1, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 500, 50, -1));
+        getContentPane().add(txfDec1, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 500, 70, -1));
 
         txfDec2.setEditable(false);
         txfDec2.setBackground(new java.awt.Color(204, 204, 204));
         txfDec2.setForeground(new java.awt.Color(0, 0, 0));
         txfDec2.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        getContentPane().add(txfDec2, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 500, 50, -1));
+        getContentPane().add(txfDec2, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 500, 70, -1));
 
         txfDec3.setEditable(false);
         txfDec3.setBackground(new java.awt.Color(204, 204, 204));
         txfDec3.setForeground(new java.awt.Color(0, 0, 0));
         txfDec3.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        getContentPane().add(txfDec3, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 500, 50, -1));
+        getContentPane().add(txfDec3, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 500, 70, -1));
 
         txfDec4.setEditable(false);
         txfDec4.setBackground(new java.awt.Color(204, 204, 204));
         txfDec4.setForeground(new java.awt.Color(0, 0, 0));
         txfDec4.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        getContentPane().add(txfDec4, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 500, 50, -1));
+        getContentPane().add(txfDec4, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 500, 70, -1));
 
         txfDec5.setEditable(false);
         txfDec5.setBackground(new java.awt.Color(204, 204, 204));
         txfDec5.setForeground(new java.awt.Color(0, 0, 0));
         txfDec5.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        getContentPane().add(txfDec5, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 500, 50, -1));
+        getContentPane().add(txfDec5, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 500, 70, -1));
 
         txfDec6.setEditable(false);
         txfDec6.setBackground(new java.awt.Color(204, 204, 204));
         txfDec6.setForeground(new java.awt.Color(0, 0, 0));
         txfDec6.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        getContentPane().add(txfDec6, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 500, 50, -1));
+        getContentPane().add(txfDec6, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 500, 70, -1));
 
         jPanel3.setBackground(new java.awt.Color(80, 65, 54));
 
@@ -520,7 +520,6 @@ public class MainMenu extends javax.swing.JFrame {
         
         
         int numRolls = Integer.parseInt(txfAmtOfRolls.getText());
-        
         txfFreqTotal.setText(""+numRolls);
         
         int[] frequencies = new int[6];
@@ -529,10 +528,20 @@ public class MainMenu extends javax.swing.JFrame {
         for (int i = 0; i < numRolls; i++) {
             int randomValue = (int) (Math.random() * 6) + 1;
             frequencies[randomValue - 1]++;
+            
         }
         
         for (int j = 0; j < 6; j++) {
             amountFields[j].setText(String.valueOf(frequencies[j]));
+            
+            fractions[j] = frequencies[j] + "/" + numRolls;
+            fractionFields[j].setText(fractions[j]);
+            
+            double percentage = (double) frequencies[j] / numRolls * 100;
+            percentageFields[j].setText(String.format("%.2f", percentage) + "%");
+            
+            double decimalValue = (double) frequencies[j] / numRolls;
+            decimalFields[j].setText(String.format("%.2f", decimalValue));
         }
     }//GEN-LAST:event_btnProcessActionPerformed
 
