@@ -4,8 +4,6 @@
  */
 package dicerollsimulator;
 
-import java.util.Random;
-import javax.swing.ImageIcon;
 import javax.swing.JTextField;
 
 /**
@@ -19,7 +17,6 @@ public class MainMenu extends javax.swing.JFrame {
      */
     public MainMenu() {
         initComponents();
-        setAppIcon();
     }
 
     /**
@@ -578,11 +575,6 @@ public class MainMenu extends javax.swing.JFrame {
                 new MainMenu().setVisible(true);
             }
         });
-    }
-    
-    private void setAppIcon() {
-        ImageIcon icon = new ImageIcon(getClass().getResource("/resources/Square71x71Logo.scale-100.png"));
-        setIconImage(icon.getImage());
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
